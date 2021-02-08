@@ -9,8 +9,8 @@ def onPi():
 
 
 if onPi():
-    from campera import PiCamera
-    pi_camera = PiCamera(flip=False)  # flip pi camera if upside down.
+    from campera import VideoCamera
+    pi_camera = VideoCamera(flip=False)  # flip pi camera if upside down.
 else:
     import cv2
     pi_camera = cv2.VideoCapture(0)
