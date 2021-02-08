@@ -3,4 +3,5 @@ opencv-python
 flask
 imutils
 picamera
+uwsgi
 gunicorn
